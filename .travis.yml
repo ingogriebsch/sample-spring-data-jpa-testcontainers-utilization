@@ -6,4 +6,6 @@ jdk:
   - openjdk8
 language: java
 script: ./mvnw verify coveralls:report -B
-sudo: false
+sudo: true
+services:
+  - docker
