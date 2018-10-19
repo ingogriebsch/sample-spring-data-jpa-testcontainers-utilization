@@ -27,7 +27,6 @@
     <name>Spring Data JPA Testcontainers utilization sample</name>
     <description>This sample shows you how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot)</description>
 
-
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
