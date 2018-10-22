@@ -26,6 +26,9 @@
 
     <name>Spring Data JPA Testcontainers utilization sample</name>
     <description>This sample shows you how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot)</description>
+    <url>https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization</url>
+    <inceptionYear>2018</inceptionYear>
+    <organization />
 
     <licenses>
         <license>
@@ -35,6 +38,10 @@
         </license>
     </licenses>
 
+    <scm>
+        <url>${project.url}</url>
+    </scm>
+    
     <developers>
         <developer>
             <id>ingogriebsch</id>
@@ -45,6 +52,11 @@
         </developer>
     </developers>
 
+	<issueManagement>
+	    <url>${project.url}/issues</url>
+	    <system>GitHub</system>
+	</issueManagement>    
+  
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
