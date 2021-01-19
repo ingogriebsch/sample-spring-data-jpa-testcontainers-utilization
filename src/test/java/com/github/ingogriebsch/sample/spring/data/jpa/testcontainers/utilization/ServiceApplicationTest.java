@@ -15,30 +15,17 @@
  */
 package com.github.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
 
-import static lombok.AccessLevel.PACKAGE;
+import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+@ActiveProfiles("test")
+@SpringBootTest(webEnvironment = RANDOM_PORT)
+class ServiceApplicationTest {
 
-@Data
-@Entity
-@EqualsAndHashCode(of = "id")
-@NoArgsConstructor(access = PACKAGE)
-class Person {
-
-    @GeneratedValue
-    @Id
-    private Long id;
-    private String name;
-    private Integer age;
-
-    Person(String name, Integer age) {
-        this.name = name;
-        this.age = age;
+    @Test
+    void application_context_should_load() {
     }
 }

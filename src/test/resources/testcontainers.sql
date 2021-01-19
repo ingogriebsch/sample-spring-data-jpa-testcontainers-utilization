@@ -1,1 +1,1 @@
--- sql script to initialize the underlying database before the tests are triggered.
+-- sql script to initialize the underlying database before it is used.
