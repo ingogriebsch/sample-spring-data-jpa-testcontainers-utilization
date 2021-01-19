@@ -16,7 +16,7 @@
     <packaging>jar</packaging>
 
     <name>Spring Data JPA Testcontainers utilization sample</name>
-    <description>This sample shows you how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot)</description>
+    <description>This sample shows how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot)</description>
     <url>https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization</url>
     <inceptionYear>2018</inceptionYear>
     <organization>

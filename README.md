@@ -5,7 +5,7 @@
 [![DepShield Status](https://depshield.sonatype.org/badges/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/depshield.svg)](https://depshield.github.io)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-This sample shows you how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot).
+This sample shows how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot).
 
 ## How to build and run
 If you want to see the implementation in action, simply follow these steps:
