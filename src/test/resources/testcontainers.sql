@@ -1,1 +1,0 @@
--- sql script to initialize the underlying database before it is used.
