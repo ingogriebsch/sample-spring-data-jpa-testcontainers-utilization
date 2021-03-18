@@ -1,5 +1,10 @@
 # Spring Data JPA Testcontainers utilization sample
 [![Actions Status](https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/workflows/build/badge.svg)](https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization&metric=alert_status)](https://sonarcloud.io/dashboard?id=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization&metric=coverage)](https://sonarcloud.io/dashboard?id=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization&metric=security_rating)](https://sonarcloud.io/dashboard?id=de.ingogriebsch.samples%3Asample-spring-data-jpa-testcontainers-utilization)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 This sample shows how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot).
