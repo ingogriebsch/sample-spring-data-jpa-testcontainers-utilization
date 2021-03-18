@@ -1,6 +1,5 @@
 # Spring Data JPA Testcontainers utilization sample
 [![Actions Status](https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/workflows/build/badge.svg)](https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/actions)
-[![Codacy Status](https://api.codacy.com/project/badge/Grade/13ae48fb292048f0bf6970f99132f75c)](https://www.codacy.com/app/ingo.griebsch/sample-spring-data-jpa-testcontainers-utilization?utm_source=github.com&utm_medium=referral&utm_content=ingogriebsch/sample-spring-data-jpa-testcontainers-utilization&utm_campaign=Badge_Grade)
 [![DepShield Status](https://depshield.sonatype.org/badges/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/depshield.svg)](https://depshield.github.io)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
