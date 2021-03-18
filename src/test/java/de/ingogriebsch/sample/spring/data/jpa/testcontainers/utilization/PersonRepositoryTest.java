@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
+package de.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
 
 import static com.google.common.collect.Lists.newArrayList;
 import static org.apache.commons.lang3.RandomUtils.nextInt;
@@ -23,6 +23,8 @@ import static org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTest
 import java.util.List;
 import java.util.Optional;
 
+import de.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization.Person;
+import de.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization.PersonRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

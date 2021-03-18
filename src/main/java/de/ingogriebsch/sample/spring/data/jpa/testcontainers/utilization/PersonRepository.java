@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
+package de.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
 
-import static org.springframework.boot.SpringApplication.run;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+@Repository
+interface PersonRepository extends CrudRepository<Person, Long> {
 
-@SpringBootApplication
-public class ServiceApplication {
+    @Transactional(readOnly = true)
+    Iterable<Person> findByName(String name);
 
-    public static void main(String[] args) {
-        run(ServiceApplication.class, args);
-    }
 }

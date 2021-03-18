@@ -13,16 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
+package de.ingogriebsch.sample.spring.data.jpa.testcontainers.utilization;
 
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
+import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
-@Repository
-interface PersonRepository extends CrudRepository<Person, Long> {
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
-    @Transactional(readOnly = true)
-    Iterable<Person> findByName(String name);
+@ActiveProfiles("test")
+@SpringBootTest(webEnvironment = RANDOM_PORT)
+class ServiceApplicationTest {
 
+    @Test
+    void application_context_should_load() {
+    }
 }
