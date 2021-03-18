@@ -1,6 +1,5 @@
 # Spring Data JPA Testcontainers utilization sample
 [![Actions Status](https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/workflows/build/badge.svg)](https://github.com/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/actions)
-[![DepShield Status](https://depshield.sonatype.org/badges/ingogriebsch/sample-spring-data-jpa-testcontainers-utilization/depshield.svg)](https://depshield.github.io)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 This sample shows how to utilize the Testcontainers usage with Spring Data JPA (and Spring Boot).
