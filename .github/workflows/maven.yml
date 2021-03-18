@@ -22,8 +22,3 @@ jobs:
 
       - name: Verify artifacts
         run: mvn -B -U verify
-
-      - name: Upload coverage report
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
